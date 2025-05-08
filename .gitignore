@@ -1,0 +1,21 @@
+# Client ignores
+Client/node_modules/
+StrapiCms/node_modules/
+Client/dist/
+Client/dist-ssr/
+Client/*.local
+Client/.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# StrapiCms ignores
+StrapiCms/node_modules/
