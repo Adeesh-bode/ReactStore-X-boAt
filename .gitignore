@@ -1,6 +1,7 @@
 # Client ignores
 Client/node_modules/
 StrapiCms/node_modules/
+StrapiCms/build/
 StrapiCms/.env
 Client/dist/
 Client/dist-ssr/
