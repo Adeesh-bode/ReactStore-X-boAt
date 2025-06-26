@@ -24,33 +24,33 @@
         // the above is 2 var represnentatn where 1st var rep. top&bot and 2nd left&right
         // 1px 0px 1px  2px is 4 var : top left bottom rigth anticlockwise
         
-        @include md{
+        @include md {
             flex-direction: row;
             max-width: 1200px
         }
         // @include lg{} bich ki state lana padhega...
         
-        .banner-img{
+        .banner-img {
             position: relative;
             z-index:9;
             width: 200px;
             margin-bottom: 20px;
             
-            @include md{
-                height: 490px;
-                width: 400px;
+            @include md {
+                // height: 400px;
+                width: 450px;
                 margin-right: 90px;
                 // margin-top: 50px;
                 margin-bottom: 0;
             }
-            @include xxl{
-                // high resolution screen 1920
-                width: 600px;
-                margin-right: 0px;
-                margin-top: 0px;
-                // margin-bottom: 0;    inherit ho jaega medium screeen se...........
+            // @include xxl{
+            //     // high resolution screen 1920
+            //     width: 600px;
+            //     margin-right: 0px;
+            //     margin-top: 0px;
+            //     // margin-bottom: 0;    inherit ho jaega medium screeen se...........
                 
-            }
+            // }
         }
         .text-content{
             color:white;
